@@ -1,0 +1,11 @@
+InputData	F1905_Sponge.csv
+file_name	F1905_Sponge.csv
+file_path	C:\Users\steph\Documents\GitHub\Allocentric-and-Egocentric-Sound-Localization\Analysis\Main\Data\Formatted
+fitfunc	fit_CF8_theta
+include_probe_data	1
+nFolds	20.000000
+nParams	4.000000
+nRuns	20.000000
+simfunc	simulate_CF8_Theta
+stim_col	speaker_angle_world
+train_trials	10.000000
