@@ -10,13 +10,20 @@ The location of sounds can be described in multiple coordinate systems that are 
 
 
 ------------------------
-Repository Structure
+Analysis
 ------------------------
+Code and data used to analyse results, make figures and draw inferences about behavior
 
-This repository aims to support dissemination of research findings and provide methodological transparency. To achieve this, there are three main components:
-- **Task**: Code used to coordinate behavioral testing
-- **Analysis**: Code used to analyse results, make figures and draw inferences about behavior
-- **Modelling**: Code used to simulate task performance and model animal behavior
+------------------------
+Modelling 
+------------------------
+Code used to simulate task performance and model animal behavior
+
+------------------------
+Task
+------------------------
+Code used to coordinate behavioral testing - should you want to run your own experiments
+
 
 
 
