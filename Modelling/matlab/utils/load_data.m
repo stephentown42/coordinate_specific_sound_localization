@@ -28,7 +28,19 @@ function fit_data = load_data( file_path, file_name, stim_col, inc_probe)
 %   - 2021-08-24: Extracted from TestModel_CF8_FullAllo_Theta.m
 
 % Load it
-data = readtable( fullfile( file_path, file_name), 'delimiter',',');
+switch class(file_name)
+    
+    case 'char' % Single file
+        data = readtable( fullfile( file_path, file_name), 'delimiter',',');
+    
+    case 'cell' % Multiple files
+        data = [];
+        for i = 1: numel(file_name)
+            data = [data; 
+                readtable( fullfile( file_path, file_name{i}), 'delimiter',',')
+                ];            
+        end
+end
 
 % Keep only selected variables
 vs = {'SpeakerLocation','Response','CenterSpoutRotation','not_probe',...

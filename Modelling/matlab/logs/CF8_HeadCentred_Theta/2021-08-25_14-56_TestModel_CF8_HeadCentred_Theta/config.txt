@@ -1,7 +1,7 @@
 InputData	F1902_Eclair.csv
 file_name	F1902_Eclair.csv
 file_path	C:\Users\steph\Documents\GitHub\Allocentric-and-Egocentric-Sound-Localization\Analysis\Main\Data\Formatted
-fitfunc	fit_CF8_theta
+fitfunc	fit_CF8_head_theta
 include_probe_data	1
 nFolds	20.000000
 nParams	4.000000

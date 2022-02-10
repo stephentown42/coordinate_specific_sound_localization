@@ -1,4 +1,4 @@
-function NegLL = lik_CF8_FullAllo_Theta(response, stim, vert_offset, horiz_offset, amplitude, coldness)
+function NegLL = lik_CF8_Theta(response, stim, vert_offset, horiz_offset, amplitude, coldness)
 %
 % INPUTS
 %   response - the actions that model fit is assessed for

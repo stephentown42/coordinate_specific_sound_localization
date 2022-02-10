@@ -1,13 +1,34 @@
 function TestModel_CF8_FullAllo_Theta(file_path, file_name)
+% function TestModel_CF8_FullAllo_Theta(file_path, file_name)
 %
-% Best run from Modelling/matlab
+% Fit full world-centered model to animal behavior
+%
+% Arguments:
+% ---------
+%   - file_path: str to path containing formatted behavioral files
+%   - file_name: str of csv file containing data for one ferret
+%
+% Outputs:
+% --------
+%   - fold_performance.csv: file containing performance predicting animal
+%       behavior on each fold
+%   - param_contrast.csv: file containing negative log-likelihood values
+%   for each model fitted (nRuns * nFolds)
+%   - config.txt: log file containing information about fitting parameters
+%
+% Notes:
+% -----
+%   Best run from Modelling/matlab
 %
 % TO DO: 
+% -----
 %   - Fix contingency calculations in load_data for head-centered task
 %   - Balance sample sizes in input data to model
-
-% ST: 11 Oct 2020 - Split probe data out from training data
-% ST: 23 Aug 2021 - Adapted for Github
+%
+% Version History:
+% ----------------
+%   ST: 11 Oct 2020 - Split probe data out from training data
+%   ST: 23 Aug 2021 - Adapted for Github
 
 % Options
 nFolds = 20;
@@ -40,6 +61,7 @@ data = load_data( file_path, file_name, stim_col, include_probe_data);
 cvIndices = crossvalind('Kfold', size(data,1), nFolds);
 
 % Log config file and start recording results
+if iscell(file_name), file_name = cell2mat(file_name); end
 config = struct('InputData', file_name); 
 for i = 1 : numel(C)
     eval(sprintf('config.%s = %s;', C{i}, C{i}));

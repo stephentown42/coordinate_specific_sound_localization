@@ -1,0 +1,12 @@
+InputData	F1902_Eclair.csv
+file_name	F1902_Eclair.csv
+file_path	C:\Users\steph\Documents\GitHub\Allocentric-and-Egocentric-Sound-Localization\Analysis\Main\Data\Formatted
+fitfunc	fit_Alt01_Guess
+nFolds	20.000000
+nParams	2.000000
+nRuns	20.000000
+simfunc	simulate_Alt01_Guess
+stim_col	speaker_angle_platform
+test_probe	1
+train_probe	0
+train_trials	10.000000

@@ -1,0 +1,16 @@
+{
+    "frames_before": 10,
+    "frames_after": 20,
+    "pcutoff": 0.5,
+    "var_buffer": 5,
+    "im_width": {
+        "F1701_Pendleton": 480,
+        "F1703_Grainger": 480,
+        "F1811_Dory": 360
+    },
+    "ax_size": {
+        "F1701_Pendleton": [1.377, 1.033],
+        "F1703_Grainger": [1.377, 1.033],
+        "F1811_Dory": [1.84, 1.033]
+    }
+}

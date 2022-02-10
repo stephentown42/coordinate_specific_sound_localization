@@ -1,4 +1,4 @@
-function [Xfit, X0, NegLL, BIC] = fit_CF8_FullAllo_theta(response, stim)
+function [Xfit, X0, NegLL, BIC] = fit_CF8_theta(response, stim)
 %
 % Coefficients:
 %   1: vert_offset
