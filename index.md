@@ -10,7 +10,7 @@ The location of sounds can be described in multiple coordinate systems that are 
 
 
 ### Links
-* BioRxiv: https://www.biorxiv.org/content/10.1101/2021.09.15.460425v2
+* [BioRxiv](https://www.biorxiv.org/content/10.1101/2021.09.15.460425v2)
 * Journal of Neuroscience: (coming soon)
 
 
