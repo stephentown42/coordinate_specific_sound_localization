@@ -1,3 +1,7 @@
+---
+title: Spatial Hearing
+---
+
 # Sound localization by ferrets in head and world-centred space
 
 ### Summary
