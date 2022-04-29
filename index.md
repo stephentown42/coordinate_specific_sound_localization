@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Sound localization by ferrets in head and world-centred space
 
-You can use the [editor on GitHub](https://github.com/stephentown42/coordinate_specific_sound_localization/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Summary
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The location of sounds can be described in multiple coordinate systems that are defined relative to ourselves, or the world around us. World-centered hearing is critical for stable understanding of sound scenes, yet it is unclear whether this ability is unique to human listeners or generalises to other species. Here, we establish novel behavioral tests to determine the coordinate systems in which non-human listeners (ferrets) can localize sounds. We found that ferrets could learn to discriminate sounds using either world-centered or head-centered sound location, as evidenced by their ability to discriminate locations in one space across wide variations in sound location in the alternative coordinate system. Using infrequent probe sounds to assess broader generalization of spatial hearing, we demonstrated that in both head and world-centered localization, animals used continuous maps of auditory space to guide behavior. Single trial responses of individual animals were sufficiently informative that we could then model sound localization using speaker position in specific coordinate systems and accurately predict ferrets’ actions in held-out data. Our results demonstrate that non-human listeners can thus localize sounds in multiple spaces, including those defined by the world that require abstraction across traditional, head-centered sound localization cues.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Links
+BioRxiv:
+Journal of Neuroscience: (coming soon)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/stephentown42/coordinate_specific_sound_localization/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Authors
+Stephen Town
+Jennifer Bizley (www.dbSPL.co.uk)
