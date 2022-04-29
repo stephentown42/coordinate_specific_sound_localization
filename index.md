@@ -11,5 +11,5 @@ The location of sounds can be described in multiple coordinate systems that are 
 
 
 ### Authors
-* Stephen Town
+* Stephen Town (https://stephentown42.github.io)
 * Jennifer Bizley (www.dbSPL.co.uk)
